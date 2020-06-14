@@ -29,7 +29,7 @@
     .container {
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: center;
         align-items: right;
         max-width: auto;
         margin: 25px;
