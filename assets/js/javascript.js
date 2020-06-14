@@ -49,27 +49,13 @@ var quizQuestions = [{
     choiceD: "parenthesis",
     correctAnswer: "c"},
     {
-    question: "When is localStorage data cleared if not defined?",
-    choiceA: "No expiration time",
-    choiceB: "On page reload",
-    choiceC: "On browser close",
-    choiceD: "On computer restart",
-    correctAnswer: "a"},  
-    {
     question: "A very useful tool during development and debugging is for printing content to the debugger is?",
     choiceA: "for loops",
     choiceB: "terminal/bash",
     choiceC: "Javascript",
     choiceD: "Console.log",
     correctAnswer: "d"},
-    {
-    question: "What HTML attribute references an external JavaScript file?",
-    choiceA: "href",
-    choiceB: "src",
-    choiceC: "class",
-    choiceD: "index",
-    correctAnswer: "b"},
-        
+
     
     ];
 // Timer
@@ -121,8 +107,7 @@ function showScore(){
     finalScoreEl.innerHTML = "You got " + score + " out of " + quizQuestions.length + " correct!";
 }
 
-// On click of the submit button, we run the function highscore that saves and stringifies the array of high scores already saved in local stoage
-// as well as pushing the new user name and score into the array we are saving in local storage. Then it runs the function to show high scores.
+// Submit Button Highscore
 submitScoreBtn.addEventListener("click", function highscore(){
     
     

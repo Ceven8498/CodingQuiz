@@ -4,8 +4,7 @@
     
     li{
         padding-bottom: 3px;
-        color: white;
-        text-shadow: 1.5px 1px 3px black;
+        color:Black;
         list-style-type: none;
     }
     
@@ -63,7 +62,6 @@
         font-family: sans-serif;
         color: black;
         font-size: x-large;
-        text-shadow: .5px .5px black;
         text-align: right;
     }
     #quiz {
@@ -83,15 +81,15 @@
     
     #highScore{
         height: 1.5rem;
-        border: groove 2px;
+        border: solid 2px;
     }
     
     #high-scorePage{
         display: none;
         width: 50%;
         border: solid;
-        border-color: silver;
-        border-bottom-style: groove;
+        border-color: black;
+        border-bottom-style: solid;
         padding-bottom: .3rem;
         background: white;
     }
